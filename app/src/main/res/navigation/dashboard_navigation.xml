@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_navigation"
+    app:startDestination="@id/fragAccounts">
+
+    <fragment
+        android:id="@+id/fragAccounts"
+        android:name="net.trexis.shafikexcersie.screens.dashboard.accounts.FragAccounts"
+        android:label="FragAccounts"
+        tools:layout="@layout/layout_rv" />
+    <fragment
+        android:id="@+id/fragTwo"
+        android:name="net.trexis.shafikexcersie.screens.dashboard.two.FragTwo"
+        android:label="FragTwo"
+        tools:layout="@layout/frag_two" />
+    <fragment
+        android:id="@+id/fragThree"
+        android:name="net.trexis.shafikexcersie.screens.dashboard.three.FragThree"
+        android:label="FragThree"
+        tools:layout="@layout/frag_three" />
+</navigation>
